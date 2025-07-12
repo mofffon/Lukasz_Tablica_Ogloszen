@@ -1,2 +1,9 @@
 # Directories
-Lukasz-Tablica-Ogloszen-theme
+/Lukasz-Tablica-Ogloszen-theme
+/vendor
+
+
+# Files
+composer.lock
+.env
+.vscode

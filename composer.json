@@ -1,0 +1,16 @@
+{
+    "name": "mofffon/lukasz-tablica-ogloszen",
+    "description": "Tablica Ogloszen. Podobna do OLX.pl",
+    "authors": [
+        {
+            "name": "Lukasz Jaskiewicz",
+            "email": "lukasz.jaskiewicz2@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}
