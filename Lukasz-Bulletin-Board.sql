@@ -124,3 +124,6 @@ CREATE TABLE IF NOT EXISTS images
     name VARCHAR(255),
     value TEXT
 );
+
+CREATE USER IF NOT EXISTS 'bulletinBoardUsr'@'localhost' IDENTIFIED BY 'your-password';
+GRANT ALL PRIVILEGES ON `lukasz_bulletin_board`.* TO 'bulletinBoardUsr'@localhost;
