@@ -1,0 +1,20 @@
+{
+    "advertId": "Toyota-Auris-2013-rok-1",
+    "images": [
+        {
+            "imageId": 1,
+            "imageName": "Toyota-Auris-2013-rok-1.webp",
+            "imagePath": "./images/Toyota-Auris-2013r/"
+        },
+        {
+            "imageId": 2,
+            "imageName": "Toyota-Auris-2013-rok-2.webp",
+            "imagePath": "./images/Toyota-Auris-2013r/"
+        },
+        {
+            "imageId": 2,
+            "imageName": "Toyota-Auris-2013-rok-3.webp",
+            "imagePath": "./images/Toyota-Auris-2013r/"
+        }
+    ]
+}

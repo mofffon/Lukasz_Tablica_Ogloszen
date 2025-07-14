@@ -1,0 +1,116 @@
+.advert-info-options {
+    display: grid;
+    grid-template-columns: 64% 15% 15%;
+    gap: 3%;
+}
+
+.advert-option-btn {
+    font-size: 1.4rem;
+    margin-top: 10%;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+}
+
+.advert-option-edit-btn {
+    background-color: lightblue;
+}
+
+.advert-option-edit-btn:hover {
+    color: lightblue;
+    background-color: black;
+}
+
+.advert-option-delete-btn {
+    background-color: lightgoldenrodyellow;
+}
+
+.advert-option-delete-btn:hover {
+    color: lightgoldenrodyellow;
+    background-color: black;
+}
+
+.advert-options {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+}
+
+.advert-content {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-areas:
+        "advert-location advert-location"
+        "advert-images advert-images"
+        "advert-main-content advert-issuer-info";
+    column-gap: 20px;
+    margin-top: 0.8rem;
+}
+
+.advert-location {
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+    grid-area: advert-location;
+}
+
+.advert-images {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    align-items: center;
+    grid-area: advert-images;
+}
+
+.advert-main-content p {
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.advert-main-content h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.advert-main-content ul {
+    font-size: 1.5rem;
+    list-style-position: inside;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.advert-main-content {
+    background-color: aliceblue;
+    grid-area: advert-main-content;
+    display: grid;
+    border-radius: 0.5rem;
+}
+
+.advert-issuer-info {
+    padding: 20px;
+    background-color: lightgray;
+    grid-area: advert-issuer-info;
+    position: sticky;
+    align-self: start;
+    top: 0;
+    left: 0;
+    border-radius: 0.5rem;
+}
+
+button {
+    font-size: 4rem;
+    background-color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main-advert-image {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

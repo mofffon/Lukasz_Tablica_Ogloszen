@@ -1,0 +1,21 @@
+{
+    "advertId": "Restauracja-Stachowicka-1",
+    "images": [
+        {
+            "imageId": 1,
+            "imageName": "Restauracja-Stachowicka-1.jpg",
+            "imagePath": "./images/Restauracja-Stachowicka/"
+        },
+        {
+            "imageId": 2,
+            "imageName": "Restauracja-Stachowicka-2.jpg",
+            "imagePath": "./images/Restauracja-Stachowicka/"
+        },
+
+        {
+            "imageId": 3,
+            "imageName": "Restauracja-Stachowicka-3.jpg",
+            "imagePath": "./images/Restauracja-Stachowicka/"
+        }
+    ]
+}

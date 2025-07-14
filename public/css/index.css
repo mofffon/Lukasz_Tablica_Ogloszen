@@ -1,0 +1,32 @@
+.avert-categories {
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.category-card {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 180px;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.category-icon-wrapper {
+    font-size: 4.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.category-name {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.selected-advert-category,
+.category-card:hover {
+    color: white;
+    background-color: black;
+}

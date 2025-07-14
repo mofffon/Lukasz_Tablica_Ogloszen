@@ -9,8 +9,13 @@ Session::start();
 
 require '../helpers.php';
 
-$router = new Router();
+$dbConfig = require basePath('config/db.php');
+$router = new Router($dbConfig);
 
-basePath('/../routes.php');
+require basePath('routes.php');
 
-inspect($_SESSION);
+// Get current URI and HTTP method
+$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+// Route the request
+$router->route($uri);
