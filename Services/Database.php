@@ -18,7 +18,6 @@ class Database
      */
     public function __construct($config)
     {
-
         $dsn = "mysql:host={$config['host']};port={$config['port']};dbname={$config['dbname']}";
 
         $options = [

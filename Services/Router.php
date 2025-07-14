@@ -2,10 +2,18 @@
 
 namespace Services;
 
+use Services\Database;
+
 class Router
 {
 
     protected $routes = [];
+    private $db;
+
+    public function __construct($dbConfig)
+    {
+        $this->db = new Database($dbConfig);
+    }
 
     /**
      * Add a new route
@@ -131,11 +139,11 @@ class Router
                 }
 
                 if ($match) {
-                    $controller = 'App\\controllers' . $route['controller'];
+                    $controller = 'App\\controllers\\' . $route['controller'];
                     $controllerMethod = $route['controllerMethod'];
 
                     // Initiate the controller and call the method
-                    $controllerInstance = new $controller();
+                    $controllerInstance = new $controller($this->db);
                     $controllerInstance->$controllerMethod($params);
                     return;
                 }
